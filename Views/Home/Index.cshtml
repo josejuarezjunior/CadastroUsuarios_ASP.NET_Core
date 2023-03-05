@@ -1,8 +1,10 @@
 @{
-    Layout = "_Layout";
+    ViewBag.Subtitulo = "Página Principal";
 }
 
 <h1 class="text-primary">CRUD com ASP.NET Core</h1>
+<hr>
+<h3 class="tex-info">Usuários Cadastrados: @ViewBag.QtdUsuarios</h3>
 <hr>
 <a href="/Home/Usuarios" class="btn btn-primary">Usuários</a>
 

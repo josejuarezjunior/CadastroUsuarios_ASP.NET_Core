@@ -8,6 +8,7 @@ namespace UsandoViews.Controllers
 	{
 		public IActionResult Index()
 		{
+			ViewBag.QtdUsuarios = Usuario.Listagem.Count();
 			return View();
 		}
 		
